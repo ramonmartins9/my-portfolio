@@ -10,14 +10,13 @@ export const components = {
 				textUnderlineOffset: 6,
 				textDecorationColor: "#525252",
 				textDecorationThickness: 4,
-				marginTop: 3,
 				marginBottom: 4,
 			},
 		},
 	},
 	Link: {
 		baseStyle: (props: Dict) => ({
-			color: mode("black", "white")(props),
+			color: mode("#B7B5E4", "#554348")(props),
 			textUnderlineOffset: 3,
 		}),
 	},

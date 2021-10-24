@@ -6,7 +6,7 @@ import { ThemeToggle, MenuOptions } from "../../components";
 import { useColorModeValue } from "@chakra-ui/react";
 
 export const Navbar: React.FC = () => (
-	<Flex pr={2} pl={2} justifyContent="center" h="16" bg={useColorModeValue("#FFDCB8", "black")} >
+	<Flex position="fixed" w="100%" pr={2} pl={2} justifyContent="center" h="16" bg={useColorModeValue("#FFDCB8", "blackAlpha.800")} >
 		<Flex
 			minW={{base: "100%", lg: "700px"}}
 			alignItems="center"
@@ -26,7 +26,7 @@ export const Navbar: React.FC = () => (
 							<Image w="25px" borderRadius="full" src={useColorModeValue("/icon.png", "/iconSun.png")} alt="icon page" />
 						</motion.div>
 					</AnimatePresence>
-					<Link cursor="pointer" href="/">
+					<Link color={useColorModeValue("black", "white")} cursor="pointer" href="/">
 						<Heading size="md" fontWeight="extrabold">
 							Ramon Martins
 						</Heading>
