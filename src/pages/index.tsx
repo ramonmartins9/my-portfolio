@@ -1,10 +1,11 @@
 import React from "react";
 import type { NextPage } from "next";
+import { MainLayout } from "../layout/MainLayout";
 
 const Home: NextPage = () => (
-	<div>
+	<MainLayout>
       potato
-	</div>
+	</MainLayout>
 );
 
 export default Home;
