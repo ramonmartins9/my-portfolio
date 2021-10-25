@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import { Navbar } from "../Navbar";
+import { Footer } from "../Footer";
 
 export const MainLayout: React.FC = (props) => {
 	const { children } = props;
@@ -11,6 +12,7 @@ export const MainLayout: React.FC = (props) => {
 			<Flex justifyContent="center">
 				{children}
 			</Flex>
+			<Footer />
 		</Box>
 	);
 };

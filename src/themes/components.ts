@@ -10,7 +10,6 @@ export const components = {
 				textUnderlineOffset: 6,
 				textDecorationColor: "#525252",
 				textDecorationThickness: 4,
-				marginBottom: 4,
 			},
 		},
 	},

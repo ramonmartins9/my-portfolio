@@ -4,4 +4,4 @@ export { MenuOptions } from "./MenuOptions";
 export { CardProfile } from "./CardProfile";
 export { Stanza } from "./Stanza";
 export { SocialMedia } from "./SocialMedia";
-
+export { CardWorks } from "./CardWorks";

@@ -11,7 +11,7 @@ export const Stanza: React.FC<IProps> = (props)=> {
 
 	return (
 		<Box>
-			<Heading variant="section-title" size="md">{title}</Heading>
+			<Heading mb={4} variant="section-title" size="md">{title}</Heading>
 			<Box>{children}</Box>
 		</Box>
 	);
