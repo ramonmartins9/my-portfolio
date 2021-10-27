@@ -6,7 +6,7 @@ import { ThemeToggle, MenuOptions } from "../../components";
 import { useColorModeValue } from "@chakra-ui/react";
 
 export const Navbar: React.FC = () => (
-	<Flex position="fixed" w="100%" pr={2} pl={2} justifyContent="center" h="16" bg={useColorModeValue("#FFDCB8", "blackAlpha.800")} >
+	<Flex position="fixed" zIndex={2} backdropFilter="blur(20px)" w="100%" pr={2} pl={2} justifyContent="center" h="16" bg={useColorModeValue("rgba(255,220,184,0.8)", "blackAlpha.800")} >
 		<Flex
 			minW={{base: "100%", lg: "700px"}}
 			alignItems="center"

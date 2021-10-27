@@ -31,7 +31,8 @@ const Home: NextPage = () => {
 			   <Stanza title={strings.home.works} >
 				   <Text>
 					   {strings.home.worksBio}
-					   <Link isExternal href="https://www.linkedin.com/in/ramon-martins-113b1315b/" >{strings.home.linkedin}</Link>
+					   <Link href="/works" >{strings.home.workTiny}</Link>
+					   {strings.home.period}
 				   </Text>
 			   </Stanza>
 			   <Stanza title={strings.home.bio} >

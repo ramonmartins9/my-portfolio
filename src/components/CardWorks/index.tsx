@@ -13,7 +13,7 @@ export const CardWorks: React.FC<IProps> = (props)=> {
 	const { src, text, title, ...rest } = props;
 
 	return (
-		<Box cursor="pointer" {...rest} justifyContent="flex-end" textAlign="center">
+		<Box cursor="pointer" w="50%" {...rest} justifyContent="flex-end" textAlign="center">
 			<Box borderRadius="lg" overflow="hidden">
 				<Image quality={100} layout="responsive" width="100%" height={50} src={src} />
 			</Box>
