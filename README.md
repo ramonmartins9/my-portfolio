@@ -9,7 +9,10 @@ yarn dev
 ```
 
 ## Stack
+<pre>
+
 Next.js
 Chakra UI
 React Js
 Typescript
+</pre>
