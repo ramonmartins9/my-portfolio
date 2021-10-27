@@ -13,6 +13,6 @@ yarn dev
 
 Next.js
 Chakra UI
-React Js
+React.js
 Typescript
 </pre>
