@@ -2,7 +2,7 @@ import React from "react";
 import type { NextPage } from "next";
 import { MainLayout } from "../../layout/MainLayout";
 import { PageContainer } from "../../layout/PageContainer";
-import { Heading, HStack } from "@chakra-ui/react";
+import { Heading, SimpleGrid } from "@chakra-ui/react";
 import { CardWorks } from "../../components";
 import strings from "../../resources/strings";
 
@@ -10,7 +10,7 @@ const Hobbies: NextPage = () => (
 	<MainLayout>
           	<PageContainer>
 			<Heading variant="section-title" >{strings.hobbies.title}</Heading>
-			<HStack alignItems="flex-start" spacing={4}>
+			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/bahiaQuarto.png"
 					title={strings.works.bot.title}
@@ -21,8 +21,8 @@ const Hobbies: NextPage = () => (
 					title={strings.works.emprestei.title}
 					text={strings.works.emprestei.description}
 				/>
-			</HStack>
-			<HStack alignItems="flex-start" spacing={4}>
+			</SimpleGrid>
+			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/setup.jpeg"
 					title={strings.works.bot.title}
@@ -33,8 +33,8 @@ const Hobbies: NextPage = () => (
 					title={strings.works.emprestei.title}
 					text={strings.works.emprestei.description}
 				/>
-			</HStack>
-			<HStack alignItems="flex-start" spacing={4}>
+			</SimpleGrid>
+			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/lovecraftcountry.png"
 					title={strings.works.bot.title}
@@ -45,9 +45,8 @@ const Hobbies: NextPage = () => (
 					title={strings.works.portfolio.title}
 					text={strings.works.portfolio.description}
 				/>
-			</HStack>
+			</SimpleGrid>
 			<CardWorks
-				w="100%"
 				src="/journey.webp"
 				title={strings.works.portfolio.title}
 				text={strings.works.portfolio.description}
