@@ -28,6 +28,10 @@ const strings = new LocalizedStrings({
 				title: "BBMPBOT",
 				description: "I had never made a bot, and I guess, why not? then i made this simple bot for my heart's team.",
 			},
+			drunb: {
+				title: "Drunb",
+				description: "App that connects a personal trainer through an exercise podcast that guides users through safe, practical and fun exercises.",
+			},
 			portfolio: {
 				title: "My Portfolio",
 				description: "This project here, I saw that I needed a place to show my work and spell",

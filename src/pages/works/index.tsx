@@ -68,16 +68,16 @@ const Works: NextPage = () => (
 			</SimpleGrid>
 			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
-					src="/drunb.png"
-					title={strings.works.ace.title}
-					text={strings.works.ace.description}
-					href="https://play.google.com/store/apps/details?id=com.drunb"
-				/>
-				<CardWorks
 					src="/tamoaqui.png"
 					title={strings.works.tamoaqui.title}
 					text={strings.works.tamoaqui.description}
 					href=""
+				/>
+				<CardWorks
+					src="/drunb.png"
+					title={strings.works.drunb.title}
+					text={strings.works.drunb.description}
+					href="https://play.google.com/store/apps/details?id=com.drunb"
 				/>
 			</SimpleGrid>
 			<Heading variant="section-title" >{strings.works.personWorks}</Heading>
