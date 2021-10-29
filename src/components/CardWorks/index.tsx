@@ -19,9 +19,9 @@ export const CardWorks: React.FC<IProps> = (props)=> {
 				<Image quality={100} layout="responsive" width="100%" height={50} src={src} />
 			</Box>
 			<LinkOverlay href={href} target="_blank">
-				<Text fontSize="lg" fontWeight="medium" mt={3}>{title}</Text>
+				<Text fontSize="lg" fontWeight="extrabold" mt={3}>{title}</Text>
 			</LinkOverlay>
-			<Text mt={2} fontSize="sm" fontWeight="light">{text}</Text>
+			<Text mt={2} fontWeight="thin">{text}</Text>
 		</LinkBox>
 	);
 };

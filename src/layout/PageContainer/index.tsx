@@ -13,7 +13,7 @@ export const PageContainer: React.FC<IProps> = (props) => {
 			ml={2}
 			mt={24}
 			spacing={10}
-			w="500px"
+			w="650px"
 		>
 			{children}
 		</Stack>
