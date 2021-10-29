@@ -6,7 +6,7 @@ import { CardProfile, Stanza, SocialMedia } from "../components";
 import { Box, Text, Link } from "@chakra-ui/react";
 import { PageContainer } from "../layout/PageContainer";
 import { useColorModeValue } from "@chakra-ui/react";
-import { FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi";
+import { FiLinkedin, FiInstagram, FiTwitter, FiGithub } from "react-icons/fi";
 import strings from "../resources/strings";
 import YouTube from "react-youtube";
 
@@ -40,10 +40,11 @@ const Home: NextPage = () => {
 					   {strings.home.born}
 				   </Text>
 			   </Stanza>
-			   <Stanza title={strings.home.socialMedia} >
-				   <SocialMedia href="https://www.linkedin.com/in/ramon-martins-113b1315b/" icon={FiLinkedin} socialMedia="Linkedin"/>
-				   <SocialMedia href="https://www.instagram.com/ramonmartins_9/" icon={FiInstagram} socialMedia="Instagram"/>
-				   <SocialMedia href="https://twitter.com/ramonmartins_9" icon={FiTwitter} socialMedia="Twitter"/>
+			   <Stanza title={strings.home.socialMedia.title} >
+				   <SocialMedia href="https://github.com/ramonmartins9" icon={FiGithub} socialMedia={strings.home.socialMedia.github}/>
+				   <SocialMedia href="https://www.linkedin.com/in/ramon-martins-113b1315b/" icon={FiLinkedin} socialMedia={strings.home.socialMedia.linkedin}/>
+				   <SocialMedia href="https://www.instagram.com/ramonmartins_9/" icon={FiInstagram} socialMedia={strings.home.socialMedia.instagram}/>
+				   <SocialMedia href="https://twitter.com/ramonmartins_9" icon={FiTwitter} socialMedia={strings.home.socialMedia.twitter}/>
 			   </Stanza>
 		   </PageContainer>
 	   </MainLayout>

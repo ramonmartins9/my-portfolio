@@ -12,7 +12,13 @@ const strings = new LocalizedStrings({
 			period: "that I participated during that period.",
 			bio: "Bio",
 			born: "A little more precise, I was born in Salvador, Bahia. I'm very happy here, you know, many beaches, but I don't go to any of them because I love movies, games and technology in general, nerd alert, but I sometimes go out... to watch movies at the cinema. I used to be a good soccer player and won some championships, they called me show men (just me) and I made a song on my cell phone, the same one you can hear up there.",
-			socialMedia: "Other places that I am too",
+			socialMedia: {
+				title: "Other places that I am too",
+				twitter: "Twitter",
+				github: "GitHub",
+				linkedin: "LinkedIn",
+				instagram: "Instagram",
+			},
 		},
 		footer: {
 			madeInPotato: "Copyright 2021 Ramon Martins.",
