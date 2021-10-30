@@ -1,8 +1,8 @@
-import { Flex, Heading, HStack, Image, Link } from "@chakra-ui/react";
+import { Flex, Heading, HStack, Image } from "@chakra-ui/react";
 import React from "react";
 import { Links } from "./Links";
 import { AnimatePresence, motion } from "framer-motion";
-import { ThemeToggle, MenuOptions } from "../../components";
+import { ThemeToggle, MenuOptions, LinkButton } from "../../components";
 import { useColorModeValue } from "@chakra-ui/react";
 
 export const Navbar: React.FC = () => (
@@ -26,11 +26,11 @@ export const Navbar: React.FC = () => (
 							<Image w="25px" borderRadius="full" src={useColorModeValue("/icon.png", "/iconSun.png")} alt="icon page" />
 						</motion.div>
 					</AnimatePresence>
-					<Link color={useColorModeValue("black", "white")} cursor="pointer" href="/">
+					<LinkButton color={useColorModeValue("black", "white")} cursor="pointer" href="/">
 						<Heading size="md" fontWeight="extrabold">
 							Ramon Martins
 						</Heading>
-					</Link>
+					</LinkButton>
 				</Flex>
 				<Links />
 			</HStack>

@@ -27,6 +27,7 @@ const strings = new LocalizedStrings({
 			bot: {
 				title: "BBMPBOT",
 				description: "I had never made a bot, and I guess, why not? then i made this simple bot for my heart's team.",
+				stanza: "On a beautiful rainy day i was idle thinking about what to do, i was bored and i wanted to know how to make a bot, as i am on twitter every now and then i see many different bots, but i had never seen a bot from my heart club o Bahia, I thought, I'm going to make a bot that leverages fan posts by enjoying all posts with BBMP, and that's what I did, learned more about bots and deploying on heroku and having a lot of fun.",
 			},
 			drunb: {
 				title: "Drunb",

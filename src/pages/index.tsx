@@ -2,8 +2,8 @@
 import React from "react";
 import type { NextPage } from "next";
 import { MainLayout } from "../layout/MainLayout";
-import { CardProfile, Stanza, SocialMedia } from "../components";
-import { Box, Text, Link } from "@chakra-ui/react";
+import { CardProfile, Stanza, SocialMedia, LinkButton } from "../components";
+import { Box, Text } from "@chakra-ui/react";
 import { PageContainer } from "../layout/PageContainer";
 import { useColorModeValue } from "@chakra-ui/react";
 import { FiLinkedin, FiInstagram, FiTwitter, FiGithub } from "react-icons/fi";
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 			   <Stanza title={strings.home.works} >
 				   <Text>
 					   {strings.home.worksBio}
-					   <Link href="/works" >{strings.home.workTiny}</Link>
+					   <LinkButton color={useColorModeValue("#65463E", "#AAD6A0")} href="/works" >{strings.home.workTiny}</LinkButton>
 					   {strings.home.period}
 				   </Text>
 			   </Stanza>

@@ -71,7 +71,7 @@ const Works: NextPage = () => (
 					src="/tamoaqui.png"
 					title={strings.works.tamoaqui.title}
 					text={strings.works.tamoaqui.description}
-					href=""
+					href="https://tamoaqui.com.br/"
 				/>
 				<CardWorks
 					src="/drunb.png"
@@ -86,17 +86,21 @@ const Works: NextPage = () => (
 					src="/bahia.jpeg"
 					title={strings.works.bot.title}
 					text={strings.works.bot.description}
+					href="/works/bbmpbot"
+					noTarget
 				/>
 				<CardWorks
 					src="/emprestei.png"
 					title={strings.works.emprestei.title}
 					text={strings.works.emprestei.description}
+					href=""
 				/>
 			</SimpleGrid>
 			<CardWorks
 				src="/banner.png"
 				title={strings.works.portfolio.title}
 				text={strings.works.portfolio.description}
+				href=""
 			/>
 	  	</PageContainer>
 	</MainLayout>

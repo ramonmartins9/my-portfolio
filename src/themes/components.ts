@@ -15,7 +15,7 @@ export const components = {
 	},
 	Link: {
 		baseStyle: (props: Dict) => ({
-			color: mode("#B7B5E4", "#554348")(props),
+			color: mode("#65463E", "#AAD6A0")(props),
 			textUnderlineOffset: 3,
 		}),
 	},

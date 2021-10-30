@@ -15,11 +15,13 @@ const Hobbies: NextPage = () => (
 					src="/bahiaQuarto.png"
 					title={strings.works.bot.title}
 					text={strings.works.bot.description}
+					href=""
 				/>
 				<CardWorks
 					src="/spiderman.jpg"
 					title={strings.works.emprestei.title}
 					text={strings.works.emprestei.description}
+					href=""
 				/>
 			</SimpleGrid>
 			<SimpleGrid columns={2} spacing={10}>
@@ -27,11 +29,13 @@ const Hobbies: NextPage = () => (
 					src="/setup.jpeg"
 					title={strings.works.bot.title}
 					text={strings.works.bot.description}
+					href=""
 				/>
 				<CardWorks
 					src="/vandal.jpg"
 					title={strings.works.emprestei.title}
 					text={strings.works.emprestei.description}
+					href=""
 				/>
 			</SimpleGrid>
 			<SimpleGrid columns={2} spacing={10}>
@@ -39,17 +43,20 @@ const Hobbies: NextPage = () => (
 					src="/lovecraftcountry.png"
 					title={strings.works.bot.title}
 					text={strings.works.bot.description}
+					href=""
 				/>
 				<CardWorks
 					src="/soccertean.png"
 					title={strings.works.portfolio.title}
 					text={strings.works.portfolio.description}
+					href=""
 				/>
 			</SimpleGrid>
 			<CardWorks
 				src="/journey.webp"
 				title={strings.works.portfolio.title}
 				text={strings.works.portfolio.description}
+				href=""
 			/>
 	  	</PageContainer>
 	</MainLayout>
