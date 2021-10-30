@@ -9,6 +9,30 @@ import strings from "../../resources/strings";
 const Works: NextPage = () => (
 	<MainLayout>
     	<PageContainer>
+			<Heading variant="section-title" >{strings.works.personWorks}</Heading>
+			<SimpleGrid columns={2} spacing={10}>
+				<CardWorks
+					src="/bahia.jpeg"
+					title={strings.works.bot.title}
+					text={strings.works.bot.description}
+					href="/works/bbmpbot"
+					noTarget
+				/>
+				<CardWorks
+					src="/emprestei.png"
+					title={strings.works.emprestei.title}
+					text={strings.works.emprestei.description}
+					href="/works/emprestei"
+					noTarget
+				/>
+			</SimpleGrid>
+			<CardWorks
+				src="/banner.png"
+				title={strings.works.portfolio.title}
+				text={strings.works.portfolio.description}
+				href="/works/portfolio"
+				noTarget
+			/>
 			<Heading variant="section-title" >{strings.works.teamCollaborations}</Heading>
 			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
@@ -23,8 +47,6 @@ const Works: NextPage = () => (
 					text={strings.works.startapp.description}
 					href="https://startapp.one/"
 				/>
-			</SimpleGrid>
-			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/consenso.png"
 					title={strings.works.consenso.title}
@@ -37,8 +59,6 @@ const Works: NextPage = () => (
 					text={strings.works.rifei.description}
 					href="https://play.google.com/store/apps/details?id=com.rifeiapp"
 				/>
-			</SimpleGrid>
-			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/apuama.png"
 					title={strings.works.apuama.title}
@@ -51,8 +71,6 @@ const Works: NextPage = () => (
 					text={strings.works.laboral.description}
 					href="https://apps.apple.com/br/app/laboral-life/id1568860884"
 				/>
-			</SimpleGrid>
-			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/ace.png"
 					title={strings.works.ace.title}
@@ -65,8 +83,6 @@ const Works: NextPage = () => (
 					text={strings.works.upjet.description}
 					href="https://upjetapp.com/pt-BR/"
 				/>
-			</SimpleGrid>
-			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/tamoaqui.png"
 					title={strings.works.tamoaqui.title}
@@ -80,28 +96,6 @@ const Works: NextPage = () => (
 					href="https://play.google.com/store/apps/details?id=com.drunb"
 				/>
 			</SimpleGrid>
-			<Heading variant="section-title" >{strings.works.personWorks}</Heading>
-			<SimpleGrid columns={2} spacing={10}>
-				<CardWorks
-					src="/bahia.jpeg"
-					title={strings.works.bot.title}
-					text={strings.works.bot.description}
-					href="/works/bbmpbot"
-					noTarget
-				/>
-				<CardWorks
-					src="/emprestei.png"
-					title={strings.works.emprestei.title}
-					text={strings.works.emprestei.description}
-					href=""
-				/>
-			</SimpleGrid>
-			<CardWorks
-				src="/banner.png"
-				title={strings.works.portfolio.title}
-				text={strings.works.portfolio.description}
-				href=""
-			/>
 	  	</PageContainer>
 	</MainLayout>
 );

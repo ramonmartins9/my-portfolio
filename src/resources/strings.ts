@@ -11,7 +11,7 @@ const strings = new LocalizedStrings({
 			workTiny: "works ",
 			period: "that I participated during that period.",
 			bio: "Bio",
-			born: "A little more precise, I was born in Salvador, Bahia. I'm very happy here, you know, many beaches, but I don't go to any of them because I love movies, games and technology in general, nerd alert, but I sometimes go out... to watch movies at the cinema. I used to be a good soccer player and won some championships, they called me show men (just me) and I made a song on my cell phone, the same one you can hear up there.",
+			born: "A little more precise, I was born in Salvador, Bahia. I'm very happy here, you know, many beaches, but I don't go to any of them because I love movies, games and technology in general, nerd alert, but I sometimes go out... to watch movies at the theater. I used to be a good soccer player and won some championships, they called me show men (just me) and I made a song on my cell phone, the same one you can hear up there.",
 			socialMedia: {
 				title: "Other places that I am too",
 				twitter: "Twitter",
@@ -36,10 +36,17 @@ const strings = new LocalizedStrings({
 			portfolio: {
 				title: "My Portfolio",
 				description: "This project here, I saw that I needed a place to show my work and spell",
+				stanza: "After receiving some resume denials, I thought what was missing was communication between recruiter and programmer, (me) so I made this portfolio and put all my work and tried to summarize as much as I am for the recruiter to have a base and refuse my resume again but now without arbitrariness, as I'm not amazing with a designer, I was inspired by the work of the great ",
+				devaslife: "devaslife",
 			},
 			emprestei: {
 				title: "Emprestei",
 				description: "A simple project to fill a hole in the loan market between family members and never forget to borrow that money",
+				whenI: "When I, ",
+				luan: "Luan",
+				and: " e ",
+				thais: "Thais ",
+				stanza: "we were on the course planning our first android app, Thais had the brilliant idea of ​​this app, an app where you could register your debts and also collect debts from other people with you and he will remind you to pay, me and luan put it into practice and we did it in two weekends, a simple app oriented to modalizes, we used the db firebase and the magnus ui to speed up development even more, and that was the result.",
 			},
 			necessial: {
 				title: "Necessial",
@@ -82,6 +89,34 @@ const strings = new LocalizedStrings({
 		},
 		hobbies: {
 			title: "Some things i do in my free time",
+			cinema: {
+				title: "Cinema",
+				description: "One of the things I love doing most in my free time is watching movies, series, animes.",
+			},
+			soccer: {
+				title: "Futebol",
+				description: "A few years ago I played a lot of amateur football, here I tell you about the experience.",
+			},
+			bahia: {
+				title: "Bahia",
+				description: "The biggest and best team in the world, some say it's the biggest in the northeast, for me, it's the biggest in the world.",
+			},
+			photos: {
+				title: "Fotos",
+				description: "Everyone takes a picture, me too.",
+			},
+			music: {
+				title: "Futebol",
+				description: "A few years ago I played a lot of amateur football, here I tell you about the experience.",
+			},
+			books: {
+				title: "Livros",
+				description: "I started reading books to improve writing and reading and I fell in love.",
+			},
+			game: {
+				title: "Jogos",
+				description: "I've always liked games, I never had much access, my first video game was the ps2, now I can play all the games I want, because of my work as a programmer, and here I'll tell you more about it.",
+			},
 		},
 		link: {
 			works: "Works",

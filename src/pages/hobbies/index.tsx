@@ -13,49 +13,45 @@ const Hobbies: NextPage = () => (
 			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/bahiaQuarto.png"
-					title={strings.works.bot.title}
-					text={strings.works.bot.description}
+					title={strings.hobbies.bahia.title}
+					text={strings.hobbies.bahia.description}
 					href=""
 				/>
 				<CardWorks
 					src="/spiderman.jpg"
-					title={strings.works.emprestei.title}
-					text={strings.works.emprestei.description}
+					title={strings.hobbies.cinema.title}
+					text={strings.hobbies.cinema.description}
 					href=""
 				/>
-			</SimpleGrid>
-			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/setup.jpeg"
-					title={strings.works.bot.title}
-					text={strings.works.bot.description}
+					title={strings.hobbies.photos.title}
+					text={strings.hobbies.photos.description}
 					href=""
 				/>
 				<CardWorks
 					src="/vandal.jpg"
-					title={strings.works.emprestei.title}
-					text={strings.works.emprestei.description}
+					title={strings.hobbies.music.title}
+					text={strings.hobbies.music.description}
 					href=""
 				/>
-			</SimpleGrid>
-			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
 					src="/lovecraftcountry.png"
-					title={strings.works.bot.title}
-					text={strings.works.bot.description}
+					title={strings.hobbies.books.title}
+					text={strings.hobbies.books.description}
 					href=""
 				/>
 				<CardWorks
 					src="/soccertean.png"
-					title={strings.works.portfolio.title}
-					text={strings.works.portfolio.description}
+					title={strings.hobbies.soccer.title}
+					text={strings.hobbies.soccer.description}
 					href=""
 				/>
 			</SimpleGrid>
 			<CardWorks
 				src="/journey.webp"
-				title={strings.works.portfolio.title}
-				text={strings.works.portfolio.description}
+				title={strings.hobbies.game.title}
+				text={strings.hobbies.game.description}
 				href=""
 			/>
 	  	</PageContainer>

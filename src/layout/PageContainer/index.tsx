@@ -18,12 +18,12 @@ export const PageContainer: React.FC<IProps> = (props) => {
 			mr={2}
 			ml={2}
 			mt={24}
-			spacing={6}
+			spacing={8}
 			w="650px"
 		>
 			{pageTitle && workTitle && (
 				<HStack>
-					<LinkButton color={useColorModeValue("#65463E", "#AAD6A0")} href={`/${pageTitle}`}>
+					<LinkButton color={useColorModeValue("#65463E", "#AAD6A0")} href={`/${pageTitle.toLowerCase()}`}>
 						{pageTitle}
 					</LinkButton>
 					<Icon as={MdOutlineKeyboardArrowRight} />
