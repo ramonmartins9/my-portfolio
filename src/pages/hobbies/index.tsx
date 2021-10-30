@@ -15,13 +15,15 @@ const Hobbies: NextPage = () => (
 					src="/bahiaQuarto.png"
 					title={strings.hobbies.bahia.title}
 					text={strings.hobbies.bahia.description}
-					href=""
+					href="/hobbies/bahia"
+					noTarget
 				/>
 				<CardWorks
 					src="/spiderman.jpg"
 					title={strings.hobbies.cinema.title}
 					text={strings.hobbies.cinema.description}
-					href=""
+					href="/hobbies/cinema"
+					noTarget
 				/>
 				<CardWorks
 					src="/setup.jpeg"
@@ -45,7 +47,8 @@ const Hobbies: NextPage = () => (
 					src="/soccertean.png"
 					title={strings.hobbies.soccer.title}
 					text={strings.hobbies.soccer.description}
-					href=""
+					href="/hobbies/soccer"
+					noTarget
 				/>
 			</SimpleGrid>
 			<CardWorks
