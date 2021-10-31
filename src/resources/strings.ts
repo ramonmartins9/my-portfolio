@@ -124,15 +124,19 @@ const strings = new LocalizedStrings({
 			},
 			music: {
 				title: "Música",
-				description: "A few years ago I played a lot of amateur football, here I tell you about the experience.",
+				description: "All I need at any point in my life is to listen to music.",
+				stanza: "I can't live a day without listening to music. My connection is with any type of music, just play me in some way, it can be the lyrics as the instrumental. This song you can play, it's my authorship, I don't know if I already said that at the beginning hehe.",
 			},
 			books: {
 				title: "Livros",
 				description: "I started reading books to improve writing and reading and I fell in love.",
+				stanza: "Some of my favorite books that taught me a lot and added good things to my self.",
 			},
 			game: {
 				title: "Jogos",
 				description: "I've always liked games, I never had much access, my first video game was the ps2, now I can play all the games I want, because of my work as a programmer, and here I'll tell you more about it.",
+				stanza: "I always liked games, I never had money to play them, as I come from a family with little money it was difficult to prioritize something just for leisure, however, at the beginning when I was an only child I won my first video game, a ps2, that was 2010 , I don't know, I just know that I played a lot of football, as I already liked football along with the useful to the pleasant, then I started playing games like GTA SA, Downhill etc. more action or arcade games.",
+				stanza2: "I grew up, so I went to reflective or role-playing games. I'll mention two of the respective genres, Journey is a game that lives up to its name, where the story is there, but she doesn't want to tell you anything, you just need to make your journey, I don't want to say exactly what touched me, because it might be let it be a spoiler and I don't want to spoil your experience, but if you want to know, ask me, the second game or games is The Witcher...",
 			},
 		},
 		link: {

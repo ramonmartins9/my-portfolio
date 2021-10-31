@@ -29,19 +29,22 @@ const Hobbies: NextPage = () => (
 					src="/setup.jpeg"
 					title={strings.hobbies.photos.title}
 					text={strings.hobbies.photos.description}
-					href=""
+					href="/hobbies/photo"
+					noTarget
 				/>
 				<CardWorks
-					src="/vandal.jpg"
+					src="/tyler.png"
 					title={strings.hobbies.music.title}
 					text={strings.hobbies.music.description}
-					href=""
+					href="/hobbies/music"
+					noTarget
 				/>
 				<CardWorks
-					src="/lovecraftcountry.png"
+					src="/extraordinario.jpeg"
 					title={strings.hobbies.books.title}
 					text={strings.hobbies.books.description}
-					href=""
+					href="/hobbies/book"
+					noTarget
 				/>
 				<CardWorks
 					src="/soccertean.png"
@@ -55,7 +58,8 @@ const Hobbies: NextPage = () => (
 				src="/journey.webp"
 				title={strings.hobbies.game.title}
 				text={strings.hobbies.game.description}
-				href=""
+				href="/hobbies/game"
+				noTarget
 			/>
 	  	</PageContainer>
 	</MainLayout>
