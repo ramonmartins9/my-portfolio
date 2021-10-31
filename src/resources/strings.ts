@@ -101,7 +101,7 @@ const strings = new LocalizedStrings({
 				I didn't mention any of these directors because they are not promises, they are already consolidated, we all know they are very good. Sam and Peele, are inexperienced and new to the market but they are great promises and in their existing debut works that even though they are new they have a unique vision for cinema and all they needed was just an opportunity to show their works.`,
 			},
 			soccer: {
-				title: "Futebol",
+				title: "Soccer",
 				description: "A few years ago I played a lot of amateur football, here I tell you about the experience.",
 				stanza: `I play football since I was a kid, it was one of my greatest joys in childhood and part of my adolescence, I played as a forward and if you don't know what a forward is, I'll try to explain.
 
