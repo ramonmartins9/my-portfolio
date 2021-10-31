@@ -7,9 +7,9 @@ import {
 	MenuItem,
 	useColorModeValue,
 	Icon,
-	Link,
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
+import { LinkButton } from "../LinkButton";
 
 export const MenuOptions = () => (
 	<Menu>
@@ -28,12 +28,16 @@ export const MenuOptions = () => (
 			/>
 		</MenuButton>
 		<MenuList bg={useColorModeValue("#FFDCB8", "black")}>
-			<MenuItem>
-				<Link href="/works">Work</Link>
-			</MenuItem>
-			<MenuItem >
-				<Link href="/hobbies">Hobbies</Link>
-			</MenuItem>
+			<LinkButton href="/works">
+				<MenuItem>
+					Work
+				</MenuItem>
+			</LinkButton>
+			<LinkButton href="/hobbies">
+				<MenuItem>
+					Hobbies
+				</MenuItem>
+			</LinkButton>
 		</MenuList>
 	</Menu>
 );
