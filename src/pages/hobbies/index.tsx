@@ -40,7 +40,7 @@ const Hobbies: NextPage = () => (
 					noTarget
 				/>
 				<CardWorks
-					src="/extraordinario.jpeg"
+					src="/books.jpeg"
 					title={strings.hobbies.books.title}
 					text={strings.hobbies.books.description}
 					href="/hobbies/book"

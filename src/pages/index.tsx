@@ -29,14 +29,14 @@ const Home: NextPage = () => {
 			   </Box>
 			   <CardProfile />
 			   <Stanza title={strings.home.works} >
-				   <Text>
+				   <Text textAlign="justify">
 					   {strings.home.worksBio}
 					   <LinkButton color={useColorModeValue("#65463E", "#AAD6A0")} href="/works" >{strings.home.workTiny}</LinkButton>
 					   {strings.home.period}
 				   </Text>
 			   </Stanza>
 			   <Stanza title={strings.home.bio} >
-				   <Text>
+				   <Text textAlign="justify">
 					   {strings.home.born}
 				   </Text>
 			   </Stanza>

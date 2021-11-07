@@ -35,13 +35,13 @@ const strings = new LocalizedStrings({
 			},
 			portfolio: {
 				title: "My Portfolio",
-				description: "This project here, I saw that I needed a place to show my work and spell",
+				description: "This project here, I saw that I needed a place to show my work and spell.",
 				stanza: "After receiving some resume denials, I thought what was missing was communication between recruiter and programmer, (me) so I made this portfolio and put all my work and tried to summarize as much as I am for the recruiter to have a base and refuse my resume again but now without arbitrariness, as I'm not amazing with a designer, I was inspired by the work of the great ",
 				devaslife: "devaslife",
 			},
 			emprestei: {
 				title: "Emprestei",
-				description: "A simple project to fill a hole in the loan market between family members and never forget to borrow that money",
+				description: "A simple project to fill a hole in the loan market between family members and never forget to borrow that money.",
 				whenI: "When I, ",
 				luan: "Luan",
 				and: " e ",
@@ -50,7 +50,7 @@ const strings = new LocalizedStrings({
 			},
 			necessial: {
 				title: "Necessial",
-				description: "A natural products marketplace that I'm very proud of being part of the work",
+				description: "A natural products marketplace that I'm very proud of being part of the work.",
 			},
 			startapp: {
 				title: "Startapp",

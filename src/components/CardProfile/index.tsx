@@ -4,7 +4,7 @@ import { Flex, Stack, Text, Heading, Image } from "@chakra-ui/react";
 
 export const CardProfile = () => (
 	<Flex flexDir={{base: "column", lg: "row"}} alignItems="center" justifyContent="space-between">
-		<Stack>
+		<Stack w="100%" alignItems="flex-start">
 			<Heading
 				size="lg"
 				fontWeight="extrabold"
