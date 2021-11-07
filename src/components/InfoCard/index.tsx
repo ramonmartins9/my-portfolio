@@ -9,33 +9,39 @@ interface IProps {
 	source?: string;
 }
 
-export const InfoCard: React.FC<IProps> = (props)=> {
+export const InfoCard: React.FC<IProps> = (props) => {
 	const { website, platform, stack, source, ...rest } = props;
 
 	return (
-		<Box p={2} cursor="pointer" {...rest} justifyContent="flex-end" textAlign="center">
-			 <Stack>
-			 {website && (
-				 <HStack>
-         	 		<Badge colorScheme="primary">Website</Badge>
-          			<Link href={website} fontSize="md" isExternal fontWeight="bold" >{website}</Link>
-       			 </HStack>
+		<Box p={2} cursor="pointer" {...rest}  >
+			<Stack fontSize="md">
+				{website && (
+					<HStack spacing={1}>
+						<Badge colorScheme="primary">Website</Badge>
+						<Link
+							href={website}
+							isExternal
+							fontWeight="bold"
+						>
+							<Text isTruncated maxW={{base: "200px", sm: "100%"}} >{website}</Text>
+						</Link>
+					</HStack>
 				)}
-				 <HStack>
-         	 		<Badge colorScheme="primary">Platform</Badge>
-          			<Text fontSize="md" fontWeight="bold">{platform}</Text>
-       			 </HStack>
-				 <HStack>
-         	 		<Badge colorScheme="primary">Stack</Badge>
-          			<Text fontSize="md" fontWeight="bold">{stack}</Text>
-       			 </HStack>
+				<Text fontWeight="bold"><Badge colorScheme="primary">Platform</Badge> {platform}</Text>
+				<Text fontWeight="bold"><Badge colorScheme="primary">Stack</Badge> {stack}</Text>
 				{source && (
-					<HStack>
+					<HStack spacing={1}>
 						<Badge colorScheme="primary">Source</Badge>
-						<Link href={source} isExternal fontSize="md" fontWeight="bold">{source}</Link>
-				 	</HStack>
+						<Link
+							href={source}
+							isExternal
+							fontWeight="bold"
+						>
+							<Text isTruncated maxW={{base: "200px", sm: "100%"}} >{source}</Text>
+						</Link>
+					</HStack>
 				)}
-			 </Stack>
+			</Stack>
 		</Box>
 	);
 };
