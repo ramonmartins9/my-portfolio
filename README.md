@@ -1,5 +1,3 @@
-## Getting Started
-
 Visit:
 
 ```bash
