@@ -1,11 +1,9 @@
 ## Getting Started
 
-Run the development server:
+Visit:
 
 ```bash
-npm run dev
-# or
-yarn dev
+https://ramonmartins9.vercel.app/
 ```
 
 ## Stack
