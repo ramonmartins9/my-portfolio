@@ -15,8 +15,8 @@ export const PageContainer: React.FC<IProps> = (props) => {
 	return (
 		<Stack
 			{...rest}
-			mr={2}
-			ml={2}
+			mr={4}
+			ml={4}
 			mt={24}
 			spacing={8}
 			w="650px"

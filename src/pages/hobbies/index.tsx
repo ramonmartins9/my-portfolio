@@ -8,7 +8,7 @@ import strings from "../../resources/strings";
 
 const Hobbies: NextPage = () => (
 	<MainLayout>
-          	<PageContainer>
+		<PageContainer>
 			<Heading variant="section-title" >{strings.hobbies.title}</Heading>
 			<SimpleGrid columns={2} spacing={10}>
 				<CardWorks
@@ -61,7 +61,7 @@ const Hobbies: NextPage = () => (
 				href="/hobbies/game"
 				noTarget
 			/>
-	  	</PageContainer>
+		</PageContainer>
 	</MainLayout>
 );
 
