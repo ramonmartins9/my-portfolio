@@ -11,11 +11,11 @@ const Game: NextPage = () => (
     	<PageContainer pageTitle={strings.link.hobbies} workTitle={strings.hobbies.game.title}>
 			<Text mt={2} fontSize="md" >{strings.hobbies.game.stanza}</Text>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height="50%" src="/journey.webp" />
+				<Image layout="responsive" width="100%" height="50%" src="/journey.webp" />
 			</Box>
 			<Text mt={2} fontSize="md" >{strings.hobbies.game.stanza2}</Text>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height="100%" src="/carpeado.jpeg" />
+				<Image layout="responsive" width="100%" height="100%" src="/carpeado.jpeg" />
 			</Box>
 		  </PageContainer>
 	</MainLayout>

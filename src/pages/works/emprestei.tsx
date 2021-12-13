@@ -28,16 +28,16 @@ const Emprestei: NextPage = () => (
 			/>
 			<SimpleGrid columns={2} spacing={8}>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/e1.webp" />
+					<Image layout="responsive" width="70%" height="100%" src="/e1.webp" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/e2.webp" />
+					<Image layout="responsive" width="70%" height="100%" src="/e2.webp" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/e3.webp" />
+					<Image layout="responsive" width="70%" height="100%" src="/e3.webp" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/e4.webp" />
+					<Image layout="responsive" width="70%" height="100%" src="/e4.webp" />
 				</Box>
 			</SimpleGrid>
 	  	</PageContainer>

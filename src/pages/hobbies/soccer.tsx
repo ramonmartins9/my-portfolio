@@ -11,7 +11,7 @@ const Soccer: NextPage = () => (
     	<PageContainer pageTitle={strings.link.hobbies} workTitle={strings.hobbies.soccer.title}>
 			<Text mt={2} fontSize="md" >{strings.hobbies.soccer.stanza}</Text>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height="50%" src="/soccertean.png" />
+				<Image layout="responsive" width="100%" height="50%" src="/soccertean.png" />
 			</Box>
 	  	</PageContainer>
 	</MainLayout>

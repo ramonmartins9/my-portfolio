@@ -19,31 +19,31 @@ const Music: NextPage = () => (
 			/>
 			<Text mt={2} fontSize="md" >{strings.hobbies.music.stanza}</Text>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height="65%" src="/belchior.jpg" />
+				<Image layout="responsive" width="100%" height="65%" src="/belchior.jpg" />
 			</Box>
 			<SimpleGrid columns={2} spacing={8}>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="65%" src="/willow.jpeg" />
+					<Image layout="responsive" width="100%" height="65%" src="/willow.jpeg" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="65%" src="/tyler.png" />
+					<Image layout="responsive" width="100%" height="65%" src="/tyler.png" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="65%" src="/timmaia.jpg" />
+					<Image layout="responsive" width="100%" height="65%" src="/timmaia.jpg" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="65%" src="/lorde.png" />
+					<Image layout="responsive" width="100%" height="65%" src="/lorde.png" />
 				</Box>
 			</SimpleGrid>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height="65%" src="/vandal.jpg" />
+				<Image layout="responsive" width="100%" height="65%" src="/vandal.jpg" />
 			</Box>
 			<SimpleGrid columns={2} spacing={8}>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="65%" src="/bluesman.png" />
+					<Image layout="responsive" width="100%" height="65%" src="/bluesman.png" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="65%" src="/amarelo.jpg" />
+					<Image layout="responsive" width="100%" height="65%" src="/amarelo.jpg" />
 				</Box>
 			</SimpleGrid>
 	  	</PageContainer>

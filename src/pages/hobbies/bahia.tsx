@@ -12,14 +12,14 @@ const Bahia: NextPage = () => (
 			<Text mt={2} fontSize="md" >{strings.hobbies.bahia.stanza}</Text>
 			<SimpleGrid columns={2} spacing={8}>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="100%" src="/torcedor.jpg" />
+					<Image layout="responsive" width="100%" height="100%" src="/torcedor.jpg" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="100%" height="100%" src="/bahia.jpeg" />
+					<Image layout="responsive" width="100%" height="100%" src="/bahia.jpeg" />
 				</Box>
 			</SimpleGrid>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height={40} src="/bahiabanco.jpg" />
+				<Image layout="responsive" width="100%" height={40} src="/bahiabanco.jpg" />
 			</Box>
 	  	</PageContainer>
 	</MainLayout>

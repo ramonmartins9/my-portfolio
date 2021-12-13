@@ -12,20 +12,20 @@ const Book: NextPage = () => (
 			<Text mt={2} fontSize="md" >{strings.hobbies.books.stanza}</Text>
 			<SimpleGrid columns={2} spacing={8}>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/love.jpeg" />
+					<Image layout="responsive" width="70%" height="100%" src="/love.jpeg" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/yourname.jpeg" />
+					<Image layout="responsive" width="70%" height="100%" src="/yourname.jpeg" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/mosquito.jpeg" />
+					<Image layout="responsive" width="70%" height="100%" src="/mosquito.jpeg" />
 				</Box>
 				<Box borderRadius="lg" overflow="hidden">
-					<Image quality={100} layout="responsive" width="70%" height="100%" src="/extraordinario.jpeg" />
+					<Image layout="responsive" width="70%" height="100%" src="/extraordinario.jpeg" />
 				</Box>
 			</SimpleGrid>
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="70%" height="100%" src="/escravidao.jpeg" />
+				<Image layout="responsive" width="70%" height="100%" src="/escravidao.jpeg" />
 			</Box>
 	  	</PageContainer>
 	</MainLayout>

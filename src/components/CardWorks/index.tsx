@@ -18,7 +18,7 @@ export const CardWorks: React.FC<IProps> = (props)=> {
 	return (
 		<LinkBox cursor="pointer" {...rest} justifyContent="flex-end" textAlign="center">
 			<Box borderRadius="lg" overflow="hidden">
-				<Image quality={100} layout="responsive" width="100%" height={50} src={src} />
+				<Image layout="responsive" width="100%" height={50} src={src} />
 			</Box>
 			<LinkOverlayButton href={href} target={noTarget ? "" : "_blank"}>
 				<Text fontSize="lg" fontWeight="extrabold" mt={3}>{title}</Text>
