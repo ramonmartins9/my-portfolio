@@ -43,8 +43,6 @@ const Home: NextPage = () => {
 			   <Stanza title={strings.home.socialMedia.title} >
 				   <SocialMedia href="https://github.com/ramonmartins9" icon={FiGithub} socialMedia={strings.home.socialMedia.github}/>
 				   <SocialMedia href="https://www.linkedin.com/in/ramon-martins-113b1315b/" icon={FiLinkedin} socialMedia={strings.home.socialMedia.linkedin}/>
-				   <SocialMedia href="https://www.instagram.com/ramonmartins_9/" icon={FiInstagram} socialMedia={strings.home.socialMedia.instagram}/>
-				   <SocialMedia href="https://twitter.com/ramonmartins_9" icon={FiTwitter} socialMedia={strings.home.socialMedia.twitter}/>
 			   </Stanza>
 		   </PageContainer>
 	   </MainLayout>
