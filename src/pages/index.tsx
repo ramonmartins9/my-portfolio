@@ -6,7 +6,7 @@ import { CardProfile, Stanza, SocialMedia, LinkButton } from "../components";
 import { Box, Text } from "@chakra-ui/react";
 import { PageContainer } from "../layout/PageContainer";
 import { useColorModeValue } from "@chakra-ui/react";
-import { FiLinkedin, FiInstagram, FiTwitter, FiGithub } from "react-icons/fi";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 import strings from "../resources/strings";
 import YouTube from "react-youtube";
 
