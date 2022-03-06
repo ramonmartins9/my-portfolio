@@ -14,7 +14,7 @@ const Portfolio: NextPage = () => {
 
 	return (
 		<MainLayout>
-			<PageContainer pageTitle={strings.link.works} workTitle={strings.works.portfolio.title}>
+			<PageContainer href="/works" pageTitle={strings.link.works} workTitle={strings.works.portfolio.title}>
 				<Text mt={2} fontSize="md" >
 					{strings.works.portfolio.stanza}
 					<Link isExternal href="https://www.youtube.com/devaslife">

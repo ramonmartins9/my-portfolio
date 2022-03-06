@@ -13,7 +13,7 @@ const Book: NextPage = () => {
 
 	return (
 		<MainLayout>
-			<PageContainer pageTitle={strings.link.hobbies} workTitle={strings.hobbies.books.title}>
+			<PageContainer href="/hobbies" pageTitle={strings.link.hobbies} workTitle={strings.hobbies.books.title}>
 				<Text mt={2} fontSize="md" >{strings.hobbies.books.stanza}</Text>
 				<SimpleGrid columns={2} spacing={8}>
 					<Box borderRadius="lg" overflow="hidden">

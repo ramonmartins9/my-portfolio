@@ -13,7 +13,7 @@ const Bbmpbot: NextPage = () => {
 
 	return (
 		<MainLayout>
-			<PageContainer pageTitle={strings.link.works} workTitle={strings.works.bot.title}>
+			<PageContainer href="/works" pageTitle={strings.link.works} workTitle={strings.works.bot.title}>
 				<Text mt={2} fontSize="md" >{strings.works.bot.stanza}</Text>
 				<InfoCard
 					platform="Twitter"

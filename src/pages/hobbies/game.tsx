@@ -13,7 +13,7 @@ const Game: NextPage = () => {
 
 	return (
 		<MainLayout>
-			<PageContainer pageTitle={strings.link.hobbies} workTitle={strings.hobbies.game.title}>
+			<PageContainer href="/hobbies" pageTitle={strings.link.hobbies} workTitle={strings.hobbies.game.title}>
 				<Text mt={2} fontSize="md" >{strings.hobbies.game.stanza}</Text>
 				<Box borderRadius="lg" overflow="hidden">
 					<Image layout="responsive" width="100%" height="50%" src="/journey.webp" />

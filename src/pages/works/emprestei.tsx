@@ -15,7 +15,7 @@ const Emprestei: NextPage = () => {
 
 	return (
 		<MainLayout>
-    	<PageContainer pageTitle={strings.link.works} workTitle={strings.works.emprestei.title}>
+    	<PageContainer href="/works" pageTitle={strings.link.works} workTitle={strings.works.emprestei.title}>
 				<Text mt={2} fontSize="md" >
 					{strings.works.emprestei.whenI}
 					<Link isExternal href="https://www.linkedin.com/in/luan-oliveira-00585b186/">

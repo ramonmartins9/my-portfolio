@@ -88,8 +88,8 @@ export const ptBr = {
 			title: "Tamo Aqui",
 			description: "PWA que foi desenvolvido para ajudar proprietários qualificados a receber feedback de seus clientes em tempo real, podendo assim monitorar a qualidade de seu serviço e também melhorar.",
 		},
-		personWorks: "Personal Works",
-		teamCollaborations: "All Collaborations",
+		personWorks: "Trabalhos Pessoais",
+		teamCollaborations: "Todas Colaborações",
 	},
 	hobbies: {
 		title: "Algumas coisas que eu gosto de fazer no meu tempo livre",

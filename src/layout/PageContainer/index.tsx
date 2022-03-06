@@ -7,10 +7,11 @@ import { useColorModeValue } from "@chakra-ui/react";
 interface IProps extends StackProps {
 	pageTitle?: string;
 	workTitle?: string;
+	href?: string;
 }
 
 export const PageContainer: React.FC<IProps> = (props) => {
-	const { children, pageTitle, workTitle, ...rest } = props;
+	const { children, href, pageTitle, workTitle, ...rest } = props;
 
 	return (
 		<Stack
@@ -21,9 +22,9 @@ export const PageContainer: React.FC<IProps> = (props) => {
 			spacing={8}
 			w="650px"
 		>
-			{pageTitle && workTitle && (
+			{pageTitle && workTitle && href && (
 				<HStack>
-					<LinkButton color={useColorModeValue("#65463E", "#AAD6A0")} href={`/${pageTitle.toLowerCase()}`}>
+					<LinkButton color={useColorModeValue("#65463E", "#AAD6A0")} href={href}>
 						{pageTitle}
 					</LinkButton>
 					<Icon as={MdOutlineKeyboardArrowRight} />

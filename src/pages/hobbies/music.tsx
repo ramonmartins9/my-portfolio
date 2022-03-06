@@ -14,7 +14,7 @@ const Music: NextPage = () => {
 
 	return (
 		<MainLayout>
-			<PageContainer pageTitle={strings.link.hobbies} workTitle={strings.hobbies.music.title}>
+			<PageContainer href="/hobbies" pageTitle={strings.link.hobbies} workTitle={strings.hobbies.music.title}>
 				<YouTube
 					videoId="gwXdXkDYm44"
 					opts={{

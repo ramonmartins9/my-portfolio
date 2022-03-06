@@ -62,7 +62,7 @@ const Works: NextPage = () => {
 						src="/rifei.png"
 						title={strings.works.rifei.title}
 						text={strings.works.rifei.description}
-						href="https://play.google.com/store/apps/details?id=com.rifeiapp"
+						href="https://rifeiapp.com.br/"
 					/>
 					<CardWorks
 						src="/apuama.png"

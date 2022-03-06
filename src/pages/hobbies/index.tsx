@@ -14,7 +14,7 @@ const Hobbies: NextPage = () => {
 	return (
 		<MainLayout>
 			<PageContainer>
-				<Heading variant="section-title" >{strings.hobbies.title}</Heading>
+				<Heading href="/hobbies" variant="section-title" >{strings.hobbies.title}</Heading>
 				<SimpleGrid columns={2} spacing={10}>
 					<CardWorks
 						src="/bahiaQuarto.png"
