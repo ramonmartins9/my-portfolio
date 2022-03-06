@@ -7,14 +7,19 @@ import { Box, Text } from "@chakra-ui/react";
 import { PageContainer } from "../layout/PageContainer";
 import { useColorModeValue } from "@chakra-ui/react";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
-import strings from "../resources/strings";
+import Strings from "../resources/strings";
 import YouTube from "react-youtube";
+import { useRouter } from "next/router";
+
 
 const Home: NextPage = () => {
 	const opts = {
 		height: "320",
 		width: "100%",
 	};
+
+	const router = useRouter();
+	const strings = Strings({ acceptLanguage: router.locale });
 
 	return (
 	   <MainLayout>
@@ -27,7 +32,7 @@ const Home: NextPage = () => {
 			   >
 				   <Text textAlign="center">{strings.home.hello}</Text>
 			   </Box>
-			   <CardProfile />
+			   <CardProfile text={strings.home.me} />
 			   <Stanza title={strings.home.works} >
 				   <Text textAlign="justify">
 					   {strings.home.worksBio}

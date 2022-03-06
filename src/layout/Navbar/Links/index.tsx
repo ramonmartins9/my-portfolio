@@ -1,14 +1,21 @@
+import React from "react";
 import { HStack } from "@chakra-ui/react";
 import { LinkButton } from "../../../components";
-import React from "react";
+import { useRouter } from "next/router";
+import Strings from "../../../resources/strings";
 
-export const Links: React.FC = () => (
-	<HStack display={{base: "none", lg: "flex"}} spacing={8}>
-		<LinkButton href="/works">
-            Works
-		</LinkButton>
-		<LinkButton href="/hobbies">
-            Hobbies
-		</LinkButton>
-	</HStack>
-);
+export const Links: React.FC = () => {
+	const router = useRouter();
+	const strings = Strings({ acceptLanguage: router.locale });
+
+	return (
+		<HStack display={{ base: "none", lg: "flex" }} spacing={8}>
+			<LinkButton href="/works">
+				{strings.home.works}
+			</LinkButton>
+			<LinkButton href="/hobbies">
+				{strings.home.hobbies}
+			</LinkButton>
+		</HStack>
+	);
+};

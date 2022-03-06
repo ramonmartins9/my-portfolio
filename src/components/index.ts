@@ -7,3 +7,4 @@ export { SocialMedia } from "./SocialMedia";
 export { CardWorks } from "./CardWorks";
 export { LinkOverlayButton } from "./LinkOverlayButton";
 export { InfoCard } from "./InfoCard";
+export { AnimateRoll } from "./AnimateRoll";
