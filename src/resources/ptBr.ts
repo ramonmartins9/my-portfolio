@@ -37,8 +37,9 @@ export const ptBr = {
 		portfolio: {
 			title: "Meu Portfólio",
 			description: "Esse projeto, eu vi que precisava de um lugar para mostrar meu trabalho e voalá",
-			stanza: `Depois de receber alguns currículos negados, achei que o que faltava era comunicação entre recrutador e programador, 
-			(eu) então fiz esse portfólio e coloquei todo o meu trabalho e tentei resumir o quanto eu sou para o recrutador ter uma base e recusar meu retomar novamente mas agora sem arbitrariedades, como não sou incrível com designer, me inspirei no trabalho do grande`,
+			stanza: `Depois de receber alguns currículos negados, achei que o que faltava era comunicação entre recrutador e programador, mais por minha culpa, 
+			então fiz esse portfólio e coloquei todo o meu trabalho e tentei resumir e falar um pouco sobre mim e meu trabalho, para o recrutador ter uma base e recusar 
+			meu curriculo novamente mas agora sabendo mais sobre minha pessoa, como não sou incrível com designer, me inspirei no trabalho do grande`,
 			devaslife: "devaslife",
 		},
 		emprestei: {
