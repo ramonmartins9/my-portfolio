@@ -26,7 +26,11 @@ export const Navbar: React.FC = () => (
 						<Image w="25px" borderRadius="full" src={useColorModeValue("/icon.png", "/iconSun.png")} alt="icon page" />
 					</AnimateRoll>
 					<LinkButton color={useColorModeValue("black", "white")} cursor="pointer" href="/">
-						<Heading size="md" fontWeight="extrabold">
+						<Heading
+							size="md"
+							fontWeight="extrabold"
+							display={{ base: "none", md: "block"}}
+						>
 								Ramon Martins
 						</Heading>
 					</LinkButton>
