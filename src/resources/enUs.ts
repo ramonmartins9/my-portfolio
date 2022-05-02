@@ -3,7 +3,7 @@ export const enUs = {
 		hello: "Hello, I'm full-stack developer based in Brasil!",
 		works: "Works",
 		hobbies: "hobbies",
-		me: "Aways Learning ( Developer / Movie Buff / Reader )",
+		me: "Always Learning ( Developer / Movie Buff / Reader )",
 		worksBio: `I've been working professionally with development since the end of 2019, 
 		I love what I do, I've worked in various segments of the area, today I work in a software factory where I face daily challenges, 
 		maybe I imagine it's little experience, but before giving up on me, a look at some `,
