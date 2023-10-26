@@ -10,6 +10,7 @@ import { useRouter } from "next/router";
 const Portfolio: NextPage = () => {
 
 	const router = useRouter();
+
 	const strings = Strings({ acceptLanguage: router.locale });
 
 	return (
