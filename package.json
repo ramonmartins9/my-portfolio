@@ -17,6 +17,7 @@
     "@emotion/styled": "^11",
     "@sentry/browser": "^6.16.1",
     "@sentry/integrations": "^6.16.1",
+    "@types/uuid": "^8.3.4",
     "@zeit/next-source-maps": "^0.0.3",
     "accept-language": "^3.0.18",
     "framer-motion": "^4",
@@ -30,7 +31,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
-    "react-youtube": "^7.13.1"
+    "react-youtube": "^7.13.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/nprogress": "^0.0.29",

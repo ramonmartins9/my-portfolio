@@ -19,7 +19,7 @@ const Portfolio: NextPage = () => {
 					{strings.works.portfolio.stanza}
 					<Link isExternal href="https://www.youtube.com/devaslife">
 						{strings.works.portfolio.devaslife}
-					</Link>.
+					</Link>
 				</Text>
 				<InfoCard
 					platform="Web"
