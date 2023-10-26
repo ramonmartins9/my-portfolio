@@ -18,7 +18,7 @@ export const CardProfile: React.FC<IProps> = (props) => {
 				</Heading>
 				<Text>{text}</Text>
 			</Stack>
-			<Image mt={{base: 4, lg: 0}} w="100px" h="100px" borderRadius="full" src={useColorModeValue("/me.png", "/me.jpg")} />
+			<Image mt={{base: 4, lg: 0}} w="100px" h="100px" borderRadius="full" src={useColorModeValue("/me.jpeg", "/me.jpg")} />
 		</Flex>
 	);
 };
